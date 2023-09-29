@@ -55,12 +55,22 @@ We achieved state-of-the-art performance on synthetic and real-world blur datase
 
 <details>
 <summary>Visual Comparison (click to expan)</summary>
+- results in Figure 6 of the main paper
+
 <p align="center">
   <img width="900" src="figs/F1.png">
 </p>
+
+
+- results in Figure 4 of the supplementary material
+
 <p align="center">
   <img width="900" src="figs/F2.png">
 </p>
+
+
+- results in Figure 5 of the supplementary material
+
 <p align="center">
   <img width="900" src="figs/F3.png">
 </p>
