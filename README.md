@@ -31,11 +31,11 @@
 1. Models
 1. Training
 1. Testing
-1. [Results](#🔎 Results)
-1. [Citation](#📎 Citation)
-1. [Acknowledgements](#💡 Acknowledgements)
+1. [Results](#results)
+1. [Citation](#citation)
+1. [Acknowledgements](#acknowledgements)
 
-## 🔎 Results
+## <a name="results"></a>🔎 Results
 
 We achieved state-of-the-art performance on synthetic and real-world blur dataset. Detailed results can be found in the paper.
 
@@ -76,7 +76,7 @@ We achieved state-of-the-art performance on synthetic and real-world blur datase
 </p>
 </details>
 
-## 📎 Citation
+## <a name="citation"></a>📎 Citation
 
 If you find the code helpful in your resarch or work, please cite the following paper(s).
 
@@ -89,7 +89,7 @@ If you find the code helpful in your resarch or work, please cite the following 
 }
 ```
 
-## 💡 Acknowledgements
+## <a name="acknowledgements"></a>💡 Acknowledgements
 
 This code is built on [BasicSR](https://github.com/XPixelGroup/BasicSR).
 
