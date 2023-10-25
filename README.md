@@ -31,9 +31,9 @@
 1. Models
 1. Training
 1. Testing
-1. [Results](#Results)
-1. [Citation](#Citation)
-1. [Acknowledgements](#Acknowledgements)
+1. [Results](#🔎 Results)
+1. [Citation](#📎 Citation)
+1. [Acknowledgements](#💡 Acknowledgements)
 
 ## 🔎 Results
 
