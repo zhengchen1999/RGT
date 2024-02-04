@@ -74,7 +74,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: experiments/pretrained_models/RGT_x4.pth
+  pretrain_network_g: experiments/pretrained_models/RGT/RGT_x4.pth
   strict_load_g: True
 
 # validation settings
