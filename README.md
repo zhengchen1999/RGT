@@ -57,18 +57,18 @@ python setup.py develop
 
 Used training and testing sets can be downloaded as follows:
 
-| Training Set                                                 |                         Testing Set                          |          Visual Results           |
-| :----------------------------------------------------------- | :----------------------------------------------------------: | :-------------------------------: |
-| [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) (800 training images, 100 validation images) +  [Flickr2K](https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar) (2650 images) [complete training dataset DF2K: [Google Drive](https://drive.google.com/file/d/1TubDkirxl4qAWelfOnpwaSKoj3KLAIG4/view?usp=share_link) / [Baidu Disk](https://pan.baidu.com/s/1KIcPNz3qDsGSM0uDKl4DRw?pwd=74yc)] | Set5 + Set14 + BSD100 + Urban100 + Manga109 [complete testing dataset: [Google Drive](https://drive.google.com/file/d/1yMbItvFKVaCT93yPWmlP3883XtJ-wSee/view?usp=sharing) / [Baidu Disk](https://pan.baidu.com/s/1Tf8WT14vhlA49TO2lz3Y1Q?pwd=8xen)] | [Google Drive]() / [Baidu Disk]() |
+| Training Set                                                 |                         Testing Set                          |                        Visual Results                        |
+| :----------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) (800 training images, 100 validation images) +  [Flickr2K](https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar) (2650 images) [complete training dataset DF2K: [Google Drive](https://drive.google.com/file/d/1TubDkirxl4qAWelfOnpwaSKoj3KLAIG4/view?usp=share_link) / [Baidu Disk](https://pan.baidu.com/s/1KIcPNz3qDsGSM0uDKl4DRw?pwd=74yc)] | Set5 + Set14 + BSD100 + Urban100 + Manga109 [complete testing dataset: [Google Drive](https://drive.google.com/file/d/1yMbItvFKVaCT93yPWmlP3883XtJ-wSee/view?usp=sharing) / [Baidu Disk](https://pan.baidu.com/s/1Tf8WT14vhlA49TO2lz3Y1Q?pwd=8xen)] | [Google Drive]() / [Baidu Disk](https://pan.baidu.com/s/10YeQAmkYI9lg2HnlzHBHxA?pwd=eb5i) |
 
 Download training and testing datasets and put them into the corresponding folders of `datasets/`. See [datasets](datasets/README.md) for the detail of the directory structure.
 
 ## <a name="models"></a>📦 Models
 
-| Method | Params (M) | FLOPs (G) | PSNR (dB) |  SSIM  |                          Model Zoo                           |          Visual Results           |
-| :----- | :--------: | :-------: | :-------: | :----: | :----------------------------------------------------------: | :-------------------------------: |
-| RGT-S  |   10.20    |  193.08   |   27.89   | 0.8347 | [Google Drive](https://drive.google.com/drive/folders/1j46WHs1Gvyif1SsZXKy1Y1IrQH0gfIQ1?usp=drive_link) / [Baidu Disk](https://pan.baidu.com/s/1mDy8Kex_NVt_0w7sZWlwmA?pwd=ikap) | [Google Drive]() / [Baidu Disk]() |
-| RGT    |   13.37    |  251.07   |   27.98   | 0.8369 | [Google Drive](https://drive.google.com/drive/folders/1zxrr31Kp2D_N9a-OUAPaJEn_yTaSXTfZ?usp=drive_link) / [Baidu Disk](https://pan.baidu.com/s/1YgL5nOGjSlCA4rRFcub9zA?pwd=x9v3) | [Google Drive]() / [Baidu Disk]() |
+| Method | Params (M) | FLOPs (G) | PSNR (dB) |  SSIM  |                          Model Zoo                           |                        Visual Results                        |
+| :----- | :--------: | :-------: | :-------: | :----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| RGT-S  |   10.20    |  193.08   |   27.89   | 0.8347 | [Google Drive](https://drive.google.com/drive/folders/1j46WHs1Gvyif1SsZXKy1Y1IrQH0gfIQ1?usp=drive_link) / [Baidu Disk](https://pan.baidu.com/s/1mDy8Kex_NVt_0w7sZWlwmA?pwd=ikap) | [Google Drive](https://drive.google.com/file/d/1qu4I3gkycMImXkhspCCSeH3ljiisKFit/view?usp=drive_link) / [Baidu Disk](https://pan.baidu.com/s/1B-RhTmr6xIsCeS1qNR6cOw?pwd=6ni9) |
+| RGT    |   13.37    |  251.07   |   27.98   | 0.8369 | [Google Drive](https://drive.google.com/drive/folders/1zxrr31Kp2D_N9a-OUAPaJEn_yTaSXTfZ?usp=drive_link) / [Baidu Disk](https://pan.baidu.com/s/1YgL5nOGjSlCA4rRFcub9zA?pwd=x9v3) | [Google Drive](https://drive.google.com/file/d/117nybIfj8UeepiiA0O0x7VeeteyHyLbh/view?usp=drive_link) / [Baidu Disk](https://pan.baidu.com/s/1j1YX_ZmzSPr80UF85YJWlQ?pwd=4htb) |
 
 The performance is reported on Urban100 (x4). Output size of FLOPs is 3×512×512.
 
