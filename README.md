@@ -100,7 +100,7 @@ The performance is reported on Urban100 (x4). Output size of FLOPs is 3×512×51
 
 - Download [testing](https://drive.google.com/file/d/1yMbItvFKVaCT93yPWmlP3883XtJ-wSee/view?usp=sharing) (Set5, Set14, BSD100, Urban100, Manga109) datasets, place them in `datasets/`.
 
-- Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_RGT_x2.yml](options/Test/test_RGT_x2.yml)).
+- Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_RGT_x2.yml](options/test/test_RGT_x2.yml)).
 
   Note 1:  You can set `use_chop: True` (default: False) in YML to chop the image for testing.
 
