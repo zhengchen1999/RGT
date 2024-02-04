@@ -1,5 +1,5 @@
 # general settings
-name: test_RGT_S_x3
+name: test_RGT_x3
 model_type: RGTModel
 scale: 3
 num_gpu: 1
