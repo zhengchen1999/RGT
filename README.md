@@ -2,7 +2,7 @@
 
 [Zheng Chen](https://zhengchen1999.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Jinjin Gu](https://www.jasongt.com/), [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/), and [Xiaokang Yang](https://scholar.google.com/citations?user=yDEavdMAAAAJ), "Recursive Generalization Transformer for Image Super-Resolution", ICLR, 2024
 
-[[arXiv](https://arxiv.org/abs/2303.06373)] [[supplementary material](https://github.com/zhengchen1999/RGT/releases)] [[visual results](https://drive.google.com/drive/folders/1TWIl66LPtojEbnlUr-s7qkUuTd7RF7Hp?usp=sharing)] [[pretrained models](https://drive.google.com/drive/folders/1UNn5LvnfQAi6eHAHz-mTYWu8vCJs5kwu?usp=sharing)]
+[[paper](https://openreview.net/pdf?id=owziuM1nsR)] [[arXiv](https://arxiv.org/abs/2303.06373)] [[supplementary material](https://openreview.net/attachment?id=owziuM1nsR&name=supplementary_material)] [[visual results](https://drive.google.com/drive/folders/1TWIl66LPtojEbnlUr-s7qkUuTd7RF7Hp?usp=sharing)] [[pretrained models](https://drive.google.com/drive/folders/1UNn5LvnfQAi6eHAHz-mTYWu8vCJs5kwu?usp=sharing)]
 
 #### 🔥🔥🔥 News
 
