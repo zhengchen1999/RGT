@@ -94,6 +94,8 @@ The performance is reported on Urban100 (x4). Output size of FLOPs is 3×512×51
 
 ## <a name="testing"></a>🔨 Testing
 
+### 🌗 Test images with HR
+
 - Download the pre-trained [models](https://drive.google.com/drive/folders/1UNn5LvnfQAi6eHAHz-mTYWu8vCJs5kwu?usp=sharing) and place them in `experiments/pretrained_models/`.
 
   We provide pre-trained models for image SR: RGT-S and RGT (x2, x3, x4).
@@ -119,7 +121,7 @@ The performance is reported on Urban100 (x4). Output size of FLOPs is 3×512×51
 
 - The output is in `results/`.
 
-### Test images without HR
+### 🌓 Test images without HR
 
 - Download the pre-trained [models](https://drive.google.com/drive/folders/1UNn5LvnfQAi6eHAHz-mTYWu8vCJs5kwu?usp=sharing) and place them in `experiments/pretrained_models/`.
 
@@ -127,7 +129,7 @@ The performance is reported on Urban100 (x4). Output size of FLOPs is 3×512×51
 
 - Put your dataset (single LR images) in `datasets/single`. Some test images are in this folder.
 
-- Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_single_x2.yml](options/Test/test_single_x2.yml)).
+- Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_single_x2.yml](options/test/test_single_x2.yml)).
 
   Note 1: The default model is RGT. You can use other models like RGT-S by modifying the YML.
 
