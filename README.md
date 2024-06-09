@@ -22,6 +22,8 @@
 | <img src="figs/img_1_HR_x4.png" height=80> | <img src="figs/img_1_Bicubic_x4.png" height=80> |  <img src="figs/img_1_SwinIR_x4.png" height=80>  | <img src="figs/img_1_CAT_x4.png" height=80> | <img src="figs/img_1_RGT_x4.png" height=80> |
 | <img src="figs/img_2_HR_x4.png" height=80> | <img src="figs/img_2_Bicubic_x4.png" height=80> |  <img src="figs/img_2_SwinIR_x4.png" height=80>  | <img src="figs/img_2_CAT_x4.png" height=80> | <img src="figs/img_2_RGT_x4.png" height=80> |
 
+
+
 ## ⚙️ Dependencies
 
 - Python 3.8
@@ -37,9 +39,13 @@ pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable
 python setup.py develop
 ```
 
+
+
 ## ⚒️ TODO
 
 * [x] Release code and pretrained models
+
+
 
 ## 🔗 Contents
 
@@ -53,6 +59,8 @@ python setup.py develop
 
 ---
 
+
+
 ## <a name="datasets"></a>🖨️ Datasets
 
 Used training and testing sets can be downloaded as follows:
@@ -63,6 +71,8 @@ Used training and testing sets can be downloaded as follows:
 
 Download training and testing datasets and put them into the corresponding folders of `datasets/`. See [datasets](datasets/README.md) for the detail of the directory structure.
 
+
+
 ## <a name="models"></a>📦 Models
 
 | Method | Params (M) | FLOPs (G) | PSNR (dB) |  SSIM  |                          Model Zoo                           |                        Visual Results                        |
@@ -71,6 +81,8 @@ Download training and testing datasets and put them into the corresponding folde
 | RGT    |   13.37    |  251.07   |   27.98   | 0.8369 | [Google Drive](https://drive.google.com/drive/folders/1zxrr31Kp2D_N9a-OUAPaJEn_yTaSXTfZ?usp=drive_link) / [Baidu Disk](https://pan.baidu.com/s/1YgL5nOGjSlCA4rRFcub9zA?pwd=x9v3) | [Google Drive](https://drive.google.com/file/d/117nybIfj8UeepiiA0O0x7VeeteyHyLbh/view?usp=drive_link) / [Baidu Disk](https://pan.baidu.com/s/1j1YX_ZmzSPr80UF85YJWlQ?pwd=4htb) |
 
 The performance is reported on Urban100 (x4). Output size of FLOPs is 3×512×512.
+
+
 
 ## <a name="training"></a>🔧 Training
 
@@ -91,6 +103,8 @@ The performance is reported on Urban100 (x4). Output size of FLOPs is 3×512×51
   ```
 
 - The training experiment is in `experiments/`.
+
+
 
 ## <a name="testing"></a>🔨 Testing
 
@@ -151,8 +165,6 @@ We achieved state-of-the-art performance. Detailed results can be found in the p
 <details>
 <summary>Quantitative Comparison (click to expand)</summary>
 
-
-
 - results in Table 2 of the main paper
 
 <p align="center">
@@ -163,10 +175,6 @@ We achieved state-of-the-art performance. Detailed results can be found in the p
 
 <details>
 <summary>Visual Comparison (click to expand)</summary>
-
-
-
-
 
 - results in Figure 6 of the main paper
 
@@ -192,6 +200,8 @@ We achieved state-of-the-art performance. Detailed results can be found in the p
 
 </details>
 
+
+
 ## <a name="citation"></a>📎 Citation
 
 If you find the code helpful in your resarch or work, please cite the following paper(s).
@@ -204,6 +214,8 @@ If you find the code helpful in your resarch or work, please cite the following 
   year={2024}
 }
 ```
+
+
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
 
