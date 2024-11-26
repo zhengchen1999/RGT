@@ -160,7 +160,7 @@ The performance is reported on Urban100 (x4). Output size of FLOPs is 3×512×51
 
 ## <a name="results"></a>🔎 Results
 
-We achieved state-of-the-art performance. Detailed results can be found in the paper.
+We achieve state-of-the-art performance. Detailed results can be found in the paper.
 
 <details>
 <summary>Quantitative Comparison (click to expand)</summary>
